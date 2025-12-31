@@ -85,15 +85,15 @@ const CheatSheet = () => {
       ],
       quiz: [
         {
-          question: "Should Nidhi use the STAR method (Situation, Task, Action, Result) when answering behavioral questions about her experience at ICON plc and BNY Mellon?",
+          question: "Should you use the STAR method (Situation, Task, Action, Result) when answering behavioral questions about your experience at ICON plc and BNY Mellon?",
           answer: true
         },
         {
-          question: "Is it important for Nidhi to mention specific quantifiable achievements like 'reduced case processing time by 50%' or 'saved 6,000 hours annually' in her behavioral answers?",
+          question: "Is it important to mention specific quantifiable achievements like 'reduced case processing time by 50%' or 'saved 6,000 hours annually' in your behavioral answers?",
           answer: true
         },
         {
-          question: "Should Nidhi avoid mentioning her specific projects like the AI-powered RAG chatbot or platform performance improvements when answering behavioral questions?",
+          question: "Should you avoid mentioning your specific projects like the AI-powered RAG chatbot or platform performance improvements when answering behavioral questions?",
           answer: false
         }
       ]
@@ -177,15 +177,15 @@ const CheatSheet = () => {
       ],
       quiz: [
         {
-          question: "Should Nidhi mention specific tools like Python, Power BI, Tableau, and SQL when discussing her technical experience?",
+          question: "Should you mention specific tools like Python, Power BI, Tableau, and SQL when discussing your technical experience?",
           answer: true
         },
         {
-          question: "Is it okay for Nidhi to say 'I don't know' if she's unsure about a technical question, rather than trying to guess?",
+          question: "Is it okay to say 'I don't know' if you're unsure about a technical question, rather than trying to guess?",
           answer: true
         },
         {
-          question: "Should Nidhi avoid discussing her real projects like the Aviation Delay DSS or Unemployment Analysis when answering technical questions?",
+          question: "Should you avoid discussing your real projects like the Aviation Delay DSS or Unemployment Analysis when answering technical questions?",
           answer: false
         }
       ]
@@ -213,15 +213,15 @@ const CheatSheet = () => {
       ],
       quiz: [
         {
-          question: "Should Nidhi highlight quantifiable results like 'reduced case processing time by 50%' or 'saved 6,000 hours annually' when describing her projects?",
+          question: "Should you highlight quantifiable results like 'reduced case processing time by 50%' or 'saved 6,000 hours annually' when describing your projects?",
           answer: true
         },
         {
-          question: "Is it important for Nidhi to mention the specific technologies and tools (Tableau, Python, Pandas, NumPy, Excel) used in her Aviation Delay DSS and Unemployment Analysis projects?",
+          question: "Is it important to mention the specific technologies and tools (Tableau, Python, Pandas, NumPy, Excel) used in your Aviation Delay DSS and Unemployment Analysis projects?",
           answer: true
         },
         {
-          question: "Should Nidhi avoid discussing the challenges she faced and how she solved them when describing her projects?",
+          question: "Should you avoid discussing the challenges you faced and how you solved them when describing your projects?",
           answer: false
         }
       ]
@@ -286,14 +286,14 @@ const CheatSheet = () => {
               </div>
               <span className="text-white font-bold text-2xl">Mentorque</span>
             </div>
-            <div className="text-center mb-6">
+            <div className="text-center">
               <h1 className="text-2xl sm:text-3xl md:text-4xl text-white font-bold mb-2">
                 Welcome, <span className="text-blue-400">Nidhi Sharma</span>
               </h1>
-              <p className="text-gray-300 text-sm sm:text-base">
+              <p className="text-gray-300 text-sm sm:text-base mb-2">
                 Your personalized interview preparation cheat sheet
               </p>
-              <p className="text-gray-400 text-xs sm:text-sm mt-2 max-w-2xl mx-auto">
+              <p className="text-gray-400 text-xs sm:text-sm max-w-2xl mx-auto">
                 Tailored to your experience in Business Analytics, data analysis, stakeholder engagement, and building analytical solutions
               </p>
             </div>
