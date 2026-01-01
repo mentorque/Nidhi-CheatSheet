@@ -1,0 +1,135 @@
+{
+  "name": "Shresth Agrawal",
+  "role": "Associate Product Manager | AI & Data-Driven Product Specialist",
+  "description": "Tailored to your experience in product management, AI-powered products, data analytics, experimentation, and building scalable consumer and enterprise solutions",
+  "sections": [
+    {
+      "title": "Behavioral Questions",
+      "icon": "Users",
+      "cards": [
+        {
+          "front": "Tell me about yourself",
+          "back": "I'm a B.Tech graduate from IIT Kharagpur with a background in Chemical Engineering and a micro-specialization in AI/ML, currently working as an Associate Product Manager at Ola Group. I’ve led product initiatives across consumer apps, AI platforms, and data-heavy systems. My experience spans authoring PRDs, improving user funnels, launching AI-powered features, and driving growth through data-backed decisions. I’ve worked across startups and large organizations like Ola, Physics Wallah, Sun Pharma, and Zero2AI, where I combined product thinking, analytics, and AI to deliver measurable outcomes."
+        },
+        {
+          "front": "What are your strengths?",
+          "back": "My strengths lie in structured product thinking, strong analytical skills, and the ability to translate user insights into impactful product decisions. At Ola, I improved the cab-booking funnel by 14% through homepage revamp and bug fixes. At Kruti, I increased 30-day retention by 17% by optimizing acquisition and retention funnels. I’m also strong at stakeholder collaboration, writing clear PRDs, and using data to prioritize features and measure impact."
+        },
+        {
+          "front": "What are your weaknesses?",
+          "back": "I sometimes spend extra time validating decisions with data before moving forward. While this helps reduce risk, I’ve learned to balance speed and accuracy by setting clear decision thresholds and timelines, especially in fast-paced environments like Ola and early-stage startups."
+        },
+        {
+          "front": "Why do you want to join us?",
+          "back": "I’m excited by roles that sit at the intersection of technology, data, and user experience. Your focus on building scalable, data-driven products aligns well with my background in AI-powered features, consumer products, and analytics-driven decision-making. I’m motivated by opportunities where product decisions directly impact user growth and business outcomes."
+        },
+        {
+          "front": "Where do you see yourself in the next 5 years?",
+          "back": "In five years, I see myself as a senior product leader driving large-scale AI-enabled products. I want to lead high-impact product teams, own end-to-end product strategy, and be known for building products that deliver measurable user and business value."
+        },
+        {
+          "front": "Tell me about a time you went above and beyond",
+          "back": "Situation: At Physics Wallah, the AI Grader feature needed rapid adoption among paid UPSC users. Task: Drive usage and engagement quickly post-launch. Action: I conducted 150+ user interviews, refined the GTM strategy, fixed critical issues, and expanded subject coverage. Result: Achieved 800+ DAU in the first week and improved engagement by 20%."
+        },
+        {
+          "front": "Describe a time you took initiative",
+          "back": "Situation: At Kruti, manual reporting slowed decision-making. Task: Improve reporting efficiency. Action: I built automated SQL and R pipelines with daily and weekly alerts. Result: Reduced manual reporting time by 80% and enabled faster product insights."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Should you use structured examples like STAR when answering behavioral questions about your product and analytics experience?",
+          "answer": true
+        },
+        {
+          "question": "Is it important to highlight measurable outcomes like funnel improvement or retention uplift in behavioral answers?",
+          "answer": true
+        },
+        {
+          "question": "Should you avoid mentioning cross-functional collaboration with design and engineering teams?",
+          "answer": false
+        }
+      ]
+    },
+    {
+      "title": "Technical Questions",
+      "icon": "Target",
+      "cards": [
+        {
+          "front": "Explain your experience with product analytics",
+          "back": "I have strong experience analyzing acquisition, activation, and retention funnels using SQL, Power BI, and experimentation frameworks. At Kruti, I analyzed 5,000+ user prompts and optimized funnels to improve 30-day retention by 17%."
+        },
+        {
+          "front": "What is your experience with AI-powered products?",
+          "back": "I’ve worked on multiple AI-driven products including an AI Grader at Physics Wallah, agentic chat platforms at Kruti, and LLM-based code generation systems at Zero2AI. My work includes GTM strategy, feature expansion, evaluation metrics, and accuracy improvements."
+        },
+        {
+          "front": "How do you use data to drive product decisions?",
+          "back": "I rely on quantitative metrics, user research, and experimentation. At Ola, I combined insights from 30+ user interviews with funnel data to revamp the homepage and improve booking conversion by 14%."
+        },
+        {
+          "front": "What tools and technologies have you used?",
+          "back": "I’ve used SQL, Power BI, R, Python, GPT models, RAG pipelines, and analytics dashboards. I’m comfortable working with large datasets, automating pipelines, and translating data into actionable product insights."
+        },
+        {
+          "front": "Explain your experience with experimentation and optimization",
+          "back": "I’ve tested multiple hypotheses across user funnels, GTM strategies, and AI feature performance. At Sun Pharma, I evaluated multiple regression models and optimized predictions using XGBoost, achieving an R² of 0.84."
+        },
+        {
+          "front": "How do you collaborate with engineering teams?",
+          "back": "I write clear PRDs, align on scope and success metrics, and stay closely involved during execution. At Ola and early-stage startups, this approach helped ship features faster while reducing rework and critical bugs."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Should you mention specific tools like SQL, Power BI, Python, or GPT models when discussing technical experience?",
+          "answer": true
+        },
+        {
+          "question": "Is it acceptable to explain trade-offs when a technical solution is not perfect?",
+          "answer": true
+        },
+        {
+          "question": "Should you avoid discussing real production metrics when answering technical questions?",
+          "answer": false
+        }
+      ]
+    },
+    {
+      "title": "Project & Impact Highlights",
+      "icon": "Award",
+      "cards": [
+        {
+          "front": "Ola Cabs Consumer App – Associate Product Manager",
+          "back": "Authored PRDs for Non-AC category, Homepage Revamp, and Tipping features. Improved cab-booking funnel by 14% through UX changes, bug fixes, and user research involving 30+ interviews."
+        },
+        {
+          "front": "Kruti – Agentic Chat Platform",
+          "back": "Improved 30-day Android retention by 17%, reduced reporting time by 80% via automated pipelines, and delivered 90+ ad-hoc insights. Analyzed 5,000+ prompts to propose major AI feature enhancements."
+        },
+        {
+          "front": "Physics Wallah – AI Product Management Intern",
+          "back": "Launched AI Grader for UPSC aspirants, achieving 800+ DAU in the first week. Improved engagement by 20% and expanded coverage to 4 CA subjects with a roadmap for 6 new features."
+        },
+        {
+          "front": "Zero2AI & Sun Pharma – AI and Analytics Internships",
+          "back": "Built LLM-powered R Shiny app generators, SAS-to-R converters, and forecasting models for solvent prices. Achieved 40% accuracy improvement in code generation and strong predictive performance with XGBoost."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Should you highlight leadership roles and awards when discussing impact and achievements?",
+          "answer": true
+        },
+        {
+          "question": "Is it important to quantify impact such as DAU growth, retention uplift, or model accuracy?",
+          "answer": true
+        },
+        {
+          "question": "Should you skip discussing challenges faced during projects?",
+          "answer": false
+        }
+      ]
+    }
+  ]
+}
