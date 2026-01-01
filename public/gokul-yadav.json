@@ -39,6 +39,20 @@
           "front": "Describe a time you took initiative",
           "back": "Situation: In my SAFe Agile Automation project, sprint planning and task allocation were manual and inefficient. Task: Improve prioritization and developer assignment. Action: I proactively designed an asynchronous FastAPI service integrated with Jira and GPT models, and applied NLP using spaCy to match developers to tasks. Result: Achieved 95% recommendation accuracy and estimated a 37% improvement in rollout speed."
         }
+      ],
+      "quiz": [
+        {
+          "question": "Should you use the STAR method (Situation, Task, Action, Result) when answering behavioral questions about your experience at BEL and your projects?",
+          "answer": true
+        },
+        {
+          "question": "Is it important to mention specific quantifiable achievements like '95% recommendation accuracy' or '37% improvement in rollout speed' in your behavioral answers?",
+          "answer": true
+        },
+        {
+          "question": "Should you avoid mentioning your specific projects like BeThere, SAFe Agile Automation, or Cryptographic Promise Share when answering behavioral questions?",
+          "answer": false
+        }
       ]
     },
     {
@@ -69,6 +83,20 @@
           "front": "How do you handle DevOps and deployment?",
           "back": "I use Git for version control, Docker for containerization, CI/CD pipelines for automation, and have experience with Kubernetes, AWS, and GitOps tools like ArgoCD. I focus on repeatable, observable, and reliable deployments."
         }
+      ],
+      "quiz": [
+        {
+          "question": "Should you mention specific technologies like React, TypeScript, FastAPI, WebSockets, and PostgreSQL when discussing your technical experience?",
+          "answer": true
+        },
+        {
+          "question": "Is it okay to say 'I don't know' if you're unsure about a technical question, rather than trying to guess?",
+          "answer": true
+        },
+        {
+          "question": "Should you avoid discussing your real projects like BeThere or SAFe Agile Automation when answering technical questions?",
+          "answer": false
+        }
       ]
     },
     {
@@ -90,6 +118,20 @@
         {
           "front": "Cryptographic Solutions Internship at BEL",
           "back": "Worked on end-to-end encryption for internal communication systems, studied Signal protocol design, and prototyped Aadhaar eSign and WebAuthn-based identity systems. Focused on secure communication, authentication, and cryptographic best practices."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Should you highlight quantifiable results like '95% recommendation accuracy' or '37% improvement in rollout speed' when describing your projects?",
+          "answer": true
+        },
+        {
+          "question": "Is it important to mention the specific technologies and tools (React, TypeScript, FastAPI, WebSockets, PostgreSQL) used in your projects?",
+          "answer": true
+        },
+        {
+          "question": "Should you avoid discussing the challenges you faced and how you solved them when describing your projects?",
+          "answer": false
         }
       ]
     }

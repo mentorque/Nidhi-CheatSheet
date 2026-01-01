@@ -36,11 +36,23 @@ const CheatSheet = () => {
           throw new Error(`Failed to load data: ${response.status} ${response.statusText}`);
         }
         
-        const jsonData = await response.json();
-        setData(jsonData);
+        const contentType = response.headers.get('content-type');
+        if (!contentType || !contentType.includes('application/json')) {
+          // If response is not JSON, try to parse as text first
+          const text = await response.text();
+          try {
+            const jsonData = JSON.parse(text);
+            setData(jsonData);
+          } catch (parseErr) {
+            throw new Error('Response is not valid JSON');
+          }
+        } else {
+          const jsonData = await response.json();
+          setData(jsonData);
+        }
       } catch (err) {
         console.error('Error loading candidate data:', err);
-        setError(`Could not load cheat sheet for: ${name}. Make sure ${name}.json exists in the root directory.`);
+        setError(`Could not load cheat sheet for: ${name}. ${err.message || 'Make sure the JSON file exists and is valid.'}`);
       } finally {
         setLoading(false);
       }
@@ -105,10 +117,13 @@ const CheatSheet = () => {
   // Show error state
   if (error || !data) {
     return (
-      <div className="min-h-screen bg-black flex items-center justify-center">
-        <div className="text-center text-white">
+      <div className="min-h-screen bg-black flex items-center justify-center px-4">
+        <div className="text-center text-white max-w-2xl">
           <div className="text-xl mb-4">Error loading cheat sheet</div>
-          <div className="text-gray-400">{error || 'No data available'}</div>
+          <div className="text-gray-400 mb-4">{error || 'No data available'}</div>
+          <div className="text-sm text-gray-500">
+            Make sure {name}.json exists in the public folder and has the correct structure.
+          </div>
         </div>
       </div>
     );
@@ -116,9 +131,9 @@ const CheatSheet = () => {
 
   const sections = data.sections;
   const currentSectionData = sections[currentSection];
-  const allAnswersCorrect = currentSectionData.quiz.every((q, idx) => 
-    quizAnswers[idx] === q.answer
-  );
+  const allAnswersCorrect = currentSectionData.quiz && currentSectionData.quiz.length > 0 
+    ? currentSectionData.quiz.every((q, idx) => quizAnswers[idx] === q.answer)
+    : true;
 
   return (
     <div className="relative overflow-x-hidden min-h-screen bg-black">
@@ -161,7 +176,7 @@ const CheatSheet = () => {
               </div>
 
               <div className="space-y-6 mb-8">
-                {currentSectionData.quiz.map((quizItem, index) => (
+                {currentSectionData.quiz && currentSectionData.quiz.length > 0 ? currentSectionData.quiz.map((quizItem, index) => (
                   <div key={index} className="backdrop-blur-xl bg-white/[0.02] border border-white/10 rounded-2xl p-6">
                     <p className="text-white text-base sm:text-lg mb-4 font-medium">
                       {index + 1}. {quizItem.question}
@@ -189,12 +204,16 @@ const CheatSheet = () => {
                       </button>
                     </div>
                   </div>
-                ))}
+                )) : (
+                  <div className="text-center text-gray-400 py-4">
+                    No quiz questions available for this section.
+                  </div>
+                )}
               </div>
 
               {!quizComplete && (
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                  {Object.keys(quizAnswers).length === currentSectionData.quiz.length && (
+                  {currentSectionData.quiz && Object.keys(quizAnswers).length === currentSectionData.quiz.length && (
                     <button
                       onClick={handleQuizSubmit}
                       className="px-8 py-3 bg-blue-400 text-white rounded-xl font-medium hover:bg-blue-500 transition-all duration-300 shadow-lg shadow-blue-400/30"
@@ -217,7 +236,7 @@ const CheatSheet = () => {
                     {allAnswersCorrect ? '✓ All Correct!' : 'Review Your Answers'}
                   </div>
                   <div className="space-y-2 mb-6">
-                    {currentSectionData.quiz.map((quizItem, index) => (
+                    {currentSectionData.quiz && currentSectionData.quiz.length > 0 ? currentSectionData.quiz.map((quizItem, index) => (
                       <div key={index} className="text-left backdrop-blur-xl bg-white/[0.02] border border-white/10 rounded-xl p-4">
                         <p className="text-gray-300 text-sm mb-1">{quizItem.question}</p>
                         <p className={`text-sm font-medium ${
@@ -226,7 +245,7 @@ const CheatSheet = () => {
                           Correct Answer: {quizItem.answer ? 'Yes' : 'No'}
                         </p>
                       </div>
-                    ))}
+                    )) : null}
                   </div>
                   <button
                     onClick={handleContinueAfterQuiz}
