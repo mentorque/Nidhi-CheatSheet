@@ -11,9 +11,7 @@ const Welcome = () => {
         <h1 className="text-4xl sm:text-5xl md:text-6xl text-white font-bold mb-6">
           Welcome to Mentorque
         </h1>
-        <p className="text-gray-300 text-lg sm:text-xl max-w-2xl mx-auto">
-          Your personalized interview preparation platform
-        </p>
+
       </div>
     </div>
   );
