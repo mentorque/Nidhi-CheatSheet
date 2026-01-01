@@ -1,0 +1,139 @@
+{
+  "name": "Tejas Singh Rawat",
+  "role": "Business Process Analyst | Agile Delivery & Digital Transformation Specialist",
+  "description": "Tailored to your experience in digital transformation, software implementation, Agile delivery, stakeholder management, and driving technology solutions across SaaS and enterprise environments",
+  "sections": [
+    {
+      "title": "Behavioral Questions",
+      "icon": "Users",
+      "cards": [
+        {
+          "front": "Tell me about yourself",
+          "back": "I'm a strategic Business Process Analyst and Certified Scrum Master with 3+ years of experience delivering 40+ technology transformation and software implementation initiatives in SaaS environments. I specialize in Agile delivery, stakeholder management, and aligning business and IT objectives. At WFX, I led 40+ EU digital transformation projects, achieving 98% CSAT and reducing post-launch issues by 50% through Agile practices. At Qualtrics, I developed GenAI integration strategies projecting 20% efficiency gains and resolved 30+ operational issues, reducing delivery delays by 25%. At ReaDI Watch, I delivered GTM strategies that boosted acquisition by 13% and built Power BI dashboards driving 5% churn reduction. I hold an MSc in Management Consultancy from UCD and excel at translating complex technical concepts into actionable strategies that drive efficiency and strong client outcomes."
+        },
+        {
+          "front": "What are your strengths?",
+          "back": "My core strengths are strategic thinking, stakeholder alignment, and delivering measurable business impact through technology solutions. I excel at bridging business and technical teams—at Qualtrics, I coordinated across global stakeholders and developers, resolving 30+ operational issues and reducing delays by 25%. I'm skilled in Agile delivery using JIRA, sprint planning, and UAT, which helped me cut post-launch issues by 50% at WFX. I have strong analytical capabilities, building Power BI dashboards and data-driven business cases that accelerate investment decisions. I'm also excellent at client engagement, having delivered 100+ workshops and resolved 1,000+ support tickets while maintaining a 98% CSAT score."
+        },
+        {
+          "front": "What are your weaknesses?",
+          "back": "I sometimes take on too much ownership of cross-functional initiatives, wanting to ensure every detail is perfect. While this drives thorough outcomes, I've learned to delegate more effectively and trust team members' expertise. By setting clear roles and using Agile ceremonies to maintain visibility, I've improved my ability to empower teams while staying focused on strategic priorities rather than getting caught in execution details."
+        },
+        {
+          "front": "Why do you want to join us?",
+          "back": "I'm drawn to organizations that value strategic technology transformation and customer-centric solutions. Your focus on innovation, scalable delivery, and impactful digital products aligns perfectly with my background in software implementation, Agile delivery, and digital transformation across SaaS environments. I'm excited about opportunities where I can apply my skills in stakeholder management, process optimization, and technology roadmapping to drive business outcomes while continuing to grow in strategic program delivery."
+        },
+        {
+          "front": "Where do you see yourself in the next 5 years?",
+          "back": "In five years, I see myself as a Senior Program Manager or Product Strategy Lead driving large-scale digital transformation initiatives. I want to deepen my expertise in technology strategy, product management, and organizational change while leading cross-functional teams delivering enterprise-scale solutions. I'm particularly interested in roles that combine strategic business thinking with hands-on delivery, where I can mentor teams and shape how technology drives business value."
+        },
+        {
+          "front": "Tell me about a time you went above and beyond",
+          "back": "Situation: At WFX, we had 40+ complex digital transformation projects running simultaneously for high-value EU clients with tight deadlines. Task: Ensure on-time delivery while maintaining high client satisfaction and solution quality. Action: I went beyond project management by proactively translating 100+ business objectives into detailed functional requirements, conducting 100+ client workshops for deep engagement, and implementing rigorous Agile practices with UAT and sprint planning. I also established a robust support process handling 1,000+ tickets personally. Result: Achieved 98% CSAT score, reduced implementation errors by 5%, cut post-launch issues by 50%, and ensured 100% on-time delivery across the portfolio."
+        },
+        {
+          "front": "How do you handle tight deadlines?",
+          "back": "I use Agile methodologies to break work into manageable sprints, prioritize ruthlessly based on business value, and maintain constant stakeholder communication. At WFX, I managed 40+ simultaneous projects using JIRA for sprint planning and tracking, which accelerated development cycles and reduced post-launch issues by 50%. I create detailed project plans, identify risks early, and coordinate across teams to resolve blockers quickly—as demonstrated at Qualtrics where I reduced delivery delays by 25% through proactive issue resolution."
+        },
+        {
+          "front": "Describe a time you took initiative",
+          "back": "Situation: At Qualtrics, Pre-Sales processes were manual and inefficient, with emerging GenAI technologies presenting opportunities. Task: Identify transformation opportunities and drive strategic change. Action: I proactively developed comprehensive technology transformation strategies integrating GenAI into Pre-Sales workflows. I built governance models, created data-driven business cases, and developed technology roadmaps for 5+ initiatives. I coordinated with global stakeholders to ensure alignment and accelerate investment decisions. Result: Projected 20% efficiency gains and 35% reduction in manual workload, with 100% of initiatives aligned to strategic objectives, demonstrating both strategic thinking and execution capability."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Should you use the STAR method when answering behavioral questions about your experience at WFX, Qualtrics, and ReaDI Watch?",
+          "answer": true
+        },
+        {
+          "question": "Is it important to mention your 98% CSAT score and 50% reduction in post-launch issues when discussing client success achievements?",
+          "answer": true
+        },
+        {
+          "question": "Should you avoid mentioning your Certified Scrum Master certification when discussing Agile delivery experience?",
+          "answer": false
+        }
+      ]
+    },
+    {
+      "title": "Technical Questions",
+      "icon": "Target",
+      "cards": [
+        {
+          "front": "Explain your experience with Agile and Scrum methodologies",
+          "back": "I'm a Certified Scrum Master with hands-on experience implementing Agile delivery across 40+ projects. At WFX, I executed sprint planning, UAT, and JIRA-based tracking, which cut post-launch issues by 50% and accelerated development cycles. I facilitate sprint ceremonies, manage backlogs, coordinate cross-functional teams, and ensure continuous delivery. I've created 15+ feature documents and used Agile practices to maintain velocity while ensuring quality and stakeholder alignment."
+        },
+        {
+          "front": "What is your experience with digital transformation?",
+          "back": "I've led 40+ digital transformation projects across EU markets in SaaS environments. At ReaDI Watch, I delivered GTM strategies with executive leadership that boosted acquisition by 13%. At Qualtrics, I developed technology transformation strategies integrating GenAI, projecting 20% efficiency gains. I translate business objectives into technical requirements, build technology roadmaps, and drive adoption through change management and stakeholder engagement."
+        },
+        {
+          "front": "How do you approach stakeholder management?",
+          "back": "I excel at bridging business and technical stakeholders across global, matrixed organizations. At Qualtrics, I coordinated between stakeholders and developers across time zones, resolving 30+ operational issues and reducing delivery delays by 25%. I maintain constant communication, align expectations early, provide transparent status updates, and translate technical complexity into business language. At WFX, I delivered 100+ workshops and maintained 98% CSAT through strong client engagement."
+        },
+        {
+          "front": "Explain your experience with data analysis and tools",
+          "back": "I have strong analytical skills using Power BI, SQL, Excel, and Google Sheets. At ReaDI Watch, I built Power BI KPI dashboards that drove 5% churn reduction by providing actionable insights. I analyze data to build business cases, conduct market research—like analyzing 100+ surveys for Flutter's market expansion—and create data-driven recommendations. I also use Postman for API testing and have experience with NetSuite ERP for business process integration."
+        },
+        {
+          "front": "What is your software implementation experience?",
+          "back": "I've led 40+ software implementation projects as a Software Implementation Consultant at WFX. I translate business requirements into functional specifications, reducing implementation errors by 5%. I coordinate UAT, manage technical configurations, resolve 1,000+ support tickets, and ensure smooth go-lives. I work closely with engineering teams to accelerate feature development and use Agile practices to maintain quality throughout implementation cycles."
+        },
+        {
+          "front": "How do you handle requirements gathering and documentation?",
+          "back": "I've translated 100+ business objectives into compliant functional requirements at WFX, improving solution alignment with client needs. I conduct stakeholder interviews, facilitate workshops, document requirements in Confluence, and create detailed feature specifications. At Qualtrics, I led cross-functional requirements gathering that aligned 100% of initiatives with strategic objectives. I ensure requirements are clear, testable, and traceable throughout the delivery lifecycle."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "JIRA is a project management tool commonly used for Agile delivery and sprint planning?",
+          "answer": true
+        },
+        {
+          "question": "Power BI is a business intelligence tool used for data visualization and creating KPI dashboards?",
+          "answer": true
+        },
+        {
+          "question": "UAT (User Acceptance Testing) should only be conducted after the product has been fully launched to production?",
+          "answer": false
+        }
+      ]
+    },
+    {
+      "title": "Project Highlights",
+      "icon": "Award",
+      "cards": [
+        {
+          "front": "WFX Digital Transformation Portfolio – 40+ EU Implementation Projects",
+          "back": "Led 40+ digital transformation projects for high-value EU clients in SaaS environment, ensuring on-time delivery and high platform adoption. Translated 100+ business objectives into functional requirements, reducing implementation errors by 5%. Served as primary client liaison resolving 1,000+ support tickets and delivering 100+ workshops, achieving 98% CSAT. Executed Agile delivery using JIRA, UAT, and sprint planning, cutting post-launch issues by 50% and accelerating development with 15+ feature documents. Tech Stack: JIRA, NetSuite ERP, SQL, Confluence, Agile/Scrum."
+        },
+        {
+          "front": "Qualtrics GenAI Integration Strategy – Technology Transformation",
+          "back": "Developed comprehensive technology transformation strategies integrating GenAI into Pre-Sales workflows with governance models, projecting 20% efficiency gains and 35% reduction in manual workload. Delivered data-driven business cases and technology roadmaps for 5+ initiatives, accelerating investment decisions with 100% strategic alignment. Bridged global stakeholders and developers across matrixed teams, resolving 30+ operational issues and reducing delivery delays by 25%. Tech Stack: GenAI, Data Analysis, Strategic Planning, Cross-functional Coordination."
+        },
+        {
+          "front": "ReaDI Watch GTM Strategy & Analytics Platform",
+          "back": "Delivered GTM strategy with executive leadership driving digital transformation that boosted customer acquisition by 13%. Built Power BI KPI dashboards providing actionable insights that drove 5% churn reduction. Led cross-functional requirements gathering and stakeholder alignment for strategic initiatives. Demonstrated ability to drive business outcomes through strategic planning and data-driven decision making. Tech Stack: Power BI, SQL, Data Analytics, Strategic Planning."
+        },
+        {
+          "front": "Flutter Paddy Power Market Expansion – Blue Ocean Strategy",
+          "back": "Led Blue Ocean market expansion strategy for Flutter's Paddy Power brand, analyzing 5+ competitors and 100+ user surveys to identify untapped market segment. Discovered sub-15% female user representation and developed targeted initiatives projected to increase engagement by 25-30%. Demonstrated strategic thinking, market research capabilities, and data-driven approach to business growth. Skills: Market Research, Competitive Analysis, Strategic Planning, Survey Analysis."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Should you highlight your 98% CSAT score and 50% reduction in post-launch issues when describing your WFX implementation projects?",
+          "answer": true
+        },
+        {
+          "question": "Is it important to mention the specific business impact like '13% acquisition boost' or '5% churn reduction' when describing your ReaDI Watch work?",
+          "answer": true
+        },
+        {
+          "question": "Should you avoid mentioning your Certified Scrum Master certification and Agile delivery methodology when discussing project execution?",
+          "answer": false
+        }
+      ]
+    }
+  ]
+}
