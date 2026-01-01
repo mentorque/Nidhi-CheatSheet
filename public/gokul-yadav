@@ -1,0 +1,97 @@
+{
+  "name": "Gokul Yadhava G",
+  "role": "Software Engineer | Systems & Full-Stack Developer",
+  "description": "Tailored to your experience in full-stack development, distributed systems, cryptography, security engineering, and building scalable, production-ready platforms",
+  "sections": [
+    {
+      "title": "Behavioral Questions",
+      "icon": "Users",
+      "cards": [
+        {
+          "front": "Tell me about yourself",
+          "back": "I'm a final-year Information Science & Engineering student with strong hands-on experience in building scalable full-stack systems, secure authentication flows, and real-time platforms. I’ve worked on production-grade projects involving WebSockets, cryptographic protocols, PKI, WebAuthn, and distributed APIs. During my internship at Bharat Electronics Limited, I implemented end-to-end encryption for internal communication systems, studied Signal protocol design, and prototyped digital identity workflows using Aadhaar eSign and WebAuthn. My projects include a real-time location sharing platform with sub-second updates, an AI-driven SAFe Agile automation system using FastAPI and NLP, and a cryptographic promise-signing system leveraging WebAuthn and PKI. I enjoy building systems that are secure, scalable, and engineered for real-world use."
+        },
+        {
+          "front": "What are your strengths?",
+          "back": "My core strengths are system-level thinking, strong fundamentals in security and backend engineering, and the ability to ship complete, production-ready solutions. I excel at designing real-time architectures, implementing cryptographic workflows, and integrating complex APIs. At BEL, I worked on end-to-end encryption and analyzed Signal protocol internals. In my projects, I’ve built WebSocket engines with sub-second latency, implemented PKI-backed digital signatures, and designed AI-assisted workflow automation with 95% accuracy. I’m also comfortable working across the stack, from React-based UIs to backend services, databases, and DevOps pipelines."
+        },
+        {
+          "front": "What are your weaknesses?",
+          "back": "I tend to spend extra time refining system design and edge cases, especially around security and scalability. While this ensures robust solutions, I’ve learned to balance perfection with delivery by prioritizing core functionality first and iterating based on impact. Using Agile practices and milestone-based development has helped me maintain speed without compromising quality."
+        },
+        {
+          "front": "Why do you want to join us?",
+          "back": "I’m interested in working on systems that operate at scale and solve real-world problems. Your focus on engineering-driven decision-making, scalable platforms, and impactful products aligns closely with my background in full-stack development, distributed systems, and security engineering. I’m excited about the opportunity to apply my skills in backend systems, APIs, and secure architectures while continuing to grow as an engineer."
+        },
+        {
+          "front": "Where do you see yourself in the next 5 years?",
+          "back": "In five years, I see myself as a strong backend or systems engineer working on large-scale distributed systems, security-critical applications, or platform engineering. I want to deepen my expertise in system design, cloud-native architectures, and applied cryptography, while also mentoring junior engineers and contributing to high-impact engineering decisions."
+        },
+        {
+          "front": "Tell me about a time you went above and beyond",
+          "back": "Situation: During my internship at BEL, encryption was required, but the scope was limited to basic implementation. Task: Deliver a secure, production-grade encryption solution. Action: I went beyond implementation by studying the Signal protocol through WhatsApp’s technical papers, understanding forward secrecy and key ratcheting, and applying those concepts to improve the design. I also prototyped Aadhaar eSign and WebAuthn-based identity workflows. Result: Delivered a more secure, future-ready encryption model and deeper architectural insights that strengthened the overall system design."
+        },
+        {
+          "front": "How do you handle tight deadlines?",
+          "back": "I break problems into clear milestones, prioritize core functionality, and ship incrementally. In projects like BeThere and SAFe Agile Automation, I followed iterative development, ensuring each feature was production-ready before moving on. This approach helped me deliver complex systems like real-time engines and AI-powered services within tight academic and project timelines."
+        },
+        {
+          "front": "Describe a time you took initiative",
+          "back": "Situation: In my SAFe Agile Automation project, sprint planning and task allocation were manual and inefficient. Task: Improve prioritization and developer assignment. Action: I proactively designed an asynchronous FastAPI service integrated with Jira and GPT models, and applied NLP using spaCy to match developers to tasks. Result: Achieved 95% recommendation accuracy and estimated a 37% improvement in rollout speed."
+        }
+      ]
+    },
+    {
+      "title": "Technical Questions",
+      "icon": "Target",
+      "cards": [
+        {
+          "front": "Explain your experience with full-stack development",
+          "back": "I have hands-on experience building end-to-end full-stack applications using React, TypeScript, Node.js, FastAPI, and PostgreSQL. I’ve designed REST and WebSocket APIs, implemented authentication flows, and built responsive UIs. My projects are production-focused, with attention to performance, scalability, and maintainability."
+        },
+        {
+          "front": "What is your experience with real-time systems?",
+          "back": "I built a WebSocket-based real-time engine for BeThere, enabling sub-second location updates for live event coordination. I handled connection management, message broadcasting, and latency optimization, ensuring reliable real-time performance at scale."
+        },
+        {
+          "front": "Explain your experience with cryptography and security",
+          "back": "I’ve worked on end-to-end encryption at BEL and studied Signal protocol internals. I implemented PKI-backed digital signature systems, WebAuthn-based authentication, and non-repudiation workflows. My Cryptographic Promise Share project uses WebAuthn not just for login, but to trigger secure, tamper-evident digital signing."
+        },
+        {
+          "front": "How do you design scalable backend systems?",
+          "back": "I design stateless APIs, use async processing where needed, choose appropriate databases, and optimize communication layers. I’ve worked with FastAPI for async services, WebSockets for real-time updates, and PostgreSQL with Prisma ORM for reliable data modeling."
+        },
+        {
+          "front": "What is your experience with AI and NLP?",
+          "back": "I integrated GPT-4 models with FastAPI for intelligent sprint planning and used spaCy NLP to analyze user stories and developer history. This enabled accurate task recommendations and improved prioritization in Agile workflows."
+        },
+        {
+          "front": "How do you handle DevOps and deployment?",
+          "back": "I use Git for version control, Docker for containerization, CI/CD pipelines for automation, and have experience with Kubernetes, AWS, and GitOps tools like ArgoCD. I focus on repeatable, observable, and reliable deployments."
+        }
+      ]
+    },
+    {
+      "title": "Project Highlights",
+      "icon": "Award",
+      "cards": [
+        {
+          "front": "BeThere – Real-time Location Sharing Platform",
+          "back": "Built a production-ready real-time location sharing platform using WebSockets with sub-second updates. Integrated Google Maps API for routing, autocomplete, and dynamic markers. Delivered a polished consumer-facing UI with React and Tailwind. Tech Stack: React, TypeScript, Node.js, WebSocket, PostgreSQL, Google Maps API."
+        },
+        {
+          "front": "SAFe Agile Automation with Generative AI",
+          "back": "Developed an asynchronous FastAPI service integrating Jira APIs with GPT-4 for intelligent sprint planning. Used spaCy NLP to recommend developers for tasks with 95% accuracy, improving rollout speed by an estimated 37%. Tech Stack: FastAPI, Python, spaCy, GPT-4, PostgreSQL."
+        },
+        {
+          "front": "Cryptographic Promise Share with WebAuthn",
+          "back": "Implemented a novel WebAuthn-based digital promise signing system using PKI and OpenSSL. Ensured non-repudiation, audit compliance, and tamper-evidence. Extended WebAuthn beyond authentication into secure digital signing workflows."
+        },
+        {
+          "front": "Cryptographic Solutions Internship at BEL",
+          "back": "Worked on end-to-end encryption for internal communication systems, studied Signal protocol design, and prototyped Aadhaar eSign and WebAuthn-based identity systems. Focused on secure communication, authentication, and cryptographic best practices."
+        }
+      ]
+    }
+  ]
+}
