@@ -28,9 +28,8 @@ const CheatSheet = () => {
       }
       
       try {
-        // Load JSON file from root directory (public folder)
-        // Files uploaded to GitHub root should be in public/ folder
-        const response = await fetch(`/${name}.json`);
+        // Load JSON file from Cheatsheet-Info folder
+        const response = await fetch(`/Cheatsheet-Info/${name}.json`);
         
         if (!response.ok) {
           if (response.status === 404) {

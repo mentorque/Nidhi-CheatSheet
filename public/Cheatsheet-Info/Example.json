@@ -42,16 +42,16 @@
       ],
       "quiz": [
         {
-          "question": "Should you use the STAR method (Situation, Task, Action, Result) when answering behavioral questions about your experience at BEL and your projects?",
+          "question": "The STAR method stands for Situation, Task, Action, and Result.",
           "answer": true
         },
         {
-          "question": "Is it important to mention specific quantifiable achievements like '95% recommendation accuracy' or '37% improvement in rollout speed' in your behavioral answers?",
-          "answer": true
-        },
-        {
-          "question": "Should you avoid mentioning your specific projects like BeThere, SAFe Agile Automation, or Cryptographic Promise Share when answering behavioral questions?",
+          "question": "When answering behavioral questions, you should avoid using specific examples from your work experience.",
           "answer": false
+        },
+        {
+          "question": "Quantifiable achievements like '95% accuracy' or '37% improvement' make your answers more credible.",
+          "answer": true
         }
       ]
     },
@@ -86,15 +86,15 @@
       ],
       "quiz": [
         {
-          "question": "Should you mention specific technologies like React, TypeScript, FastAPI, WebSockets, and PostgreSQL when discussing your technical experience?",
+          "question": "TypeScript is a superset of JavaScript.",
           "answer": true
         },
         {
-          "question": "Is it okay to say 'I don't know' if you're unsure about a technical question, rather than trying to guess?",
+          "question": "WebSockets provide a persistent connection between client and server for real-time communication.",
           "answer": true
         },
         {
-          "question": "Should you avoid discussing your real projects like BeThere or SAFe Agile Automation when answering technical questions?",
+          "question": "FastAPI is a synchronous Python web framework.",
           "answer": false
         }
       ]
@@ -122,15 +122,15 @@
       ],
       "quiz": [
         {
-          "question": "Should you highlight quantifiable results like '95% recommendation accuracy' or '37% improvement in rollout speed' when describing your projects?",
+          "question": "WebAuthn is a web standard for passwordless authentication.",
           "answer": true
         },
         {
-          "question": "Is it important to mention the specific technologies and tools (React, TypeScript, FastAPI, WebSockets, PostgreSQL) used in your projects?",
+          "question": "PKI stands for Public Key Infrastructure and is used for digital signatures and encryption.",
           "answer": true
         },
         {
-          "question": "Should you avoid discussing the challenges you faced and how you solved them when describing your projects?",
+          "question": "PostgreSQL is a NoSQL database.",
           "answer": false
         }
       ]

@@ -11,8 +11,13 @@ const TestValidator = () => {
 
   // Load Example.json on component mount
   useEffect(() => {
-    fetch('/Example.json')
-      .then(res => res.text())
+    // Try Cheatsheet-Info folder first, then fallback to root
+    fetch('/Cheatsheet-Info/Example.json')
+      .then(res => {
+        if (res.ok) return res.text();
+        // Fallback to root if not found in Cheatsheet-Info
+        return fetch('/Example.json').then(r => r.text());
+      })
       .then(text => setExampleJson(text))
       .catch(err => console.error('Failed to load Example.json:', err));
   }, []);

@@ -6,14 +6,18 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const publicDir = path.join(__dirname, 'public');
+const cheatsheetDir = path.join(publicDir, 'Cheatsheet-Info');
 const manifestPath = path.join(publicDir, 'manifest.json');
 
 // Files to exclude from the manifest
 const excludeFiles = ['manifest.json', 'Example.json', '_redirects', 'README.txt'];
 
 try {
-  // Read all files in public directory
-  const files = fs.readdirSync(publicDir);
+  // Check if Cheatsheet-Info folder exists, if not use public directory
+  const targetDir = fs.existsSync(cheatsheetDir) ? cheatsheetDir : publicDir;
+  
+  // Read all files in the target directory
+  const files = fs.readdirSync(targetDir);
   
   // Filter for JSON files and exclude specific files
   const jsonFiles = files
