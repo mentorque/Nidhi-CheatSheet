@@ -150,7 +150,7 @@ const TestValidator = () => {
   const handleCopyPrompt = async () => {
     if (!resumeInput.trim()) return;
 
-    const prompt = `${exampleJson}\n\nLook At this above json carefully and Generate new JSON for this new resume information: name, role, description, sections[3]. Each section: title, icon (Users/Target/Award), cards[], quiz[3]. Quiz MANDATORY: question (string), answer (boolean) in the same way. Don't miss anything.\n\nResume:\n${resumeInput}`;
+    const prompt = `${exampleJson}\n\nLook At this above json carefully and Generate new JSON for this new resume information: name, role, description, sections[3]. Each section: title, icon (Users/Target/Award), cards[], quiz[3]. Quiz MANDATORY: question (string), answer (boolean) in the same way. Also make sure quiz is little personalized and not too vague. Don't miss anything.\n\nResume:\n${resumeInput}`;
 
     try {
       await navigator.clipboard.writeText(prompt);
