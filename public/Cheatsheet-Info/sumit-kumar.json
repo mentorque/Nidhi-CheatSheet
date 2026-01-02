@@ -1,0 +1,147 @@
+{
+  "name": "Sumit Kumar",
+  "role": "Backend Developer | Distributed Systems & Android Engineer",
+  "description": "Tailored to your experience in scalable backend systems, microservices architecture, distributed systems, event-driven design, and Android development with strong fundamentals in system design and CS core concepts",
+  "sections": [
+    {
+      "title": "Behavioral Questions",
+      "icon": "Users",
+      "cards": [
+        {
+          "front": "Tell me about yourself",
+          "back": "I'm a final-year Computer Science student at IIIT Bhubaneswar with strong hands-on experience building scalable backend systems and distributed architectures. I specialize in microservices using Spring Boot, Kafka, Redis, and Docker, and have experience in Android development with Kotlin. I've built production-grade systems like Social Graph—a distributed social feed engine processing millions of real-time interactions with sub-100ms latency and 99.9% uptime. I've also developed a multithreaded proxy server handling 10k concurrent connections and built Grabit, a Zepto-style delivery app with real-time features and secure payments. My freelance work includes frontend development for a Paper Trading app, collaborating with teams on scalable NoSQL designs. I'm passionate about building high-performance, fault-tolerant systems that scale."
+        },
+        {
+          "front": "What are your strengths?",
+          "back": "My core strengths are backend engineering, distributed systems design, and strong problem-solving skills. I excel at building scalable microservices, implementing event-driven architectures with Kafka, and optimizing performance using caching strategies like Redis and LRU. I've demonstrated this through projects like Social Graph, where I achieved sub-100ms feed latency and sustained 250-300 RPS under load. I'm also strong in system design fundamentals, having implemented multithreading, connection pooling, and observability with Prometheus, Grafana, and Jaeger. Additionally, I'm proficient in Android development with Kotlin, MVVM architecture, and real-time features using Coroutines and StateFlow. My competitive programming background (750+ LeetCode problems, 1800+ rating) gives me strong algorithmic thinking and optimization skills."
+        },
+        {
+          "front": "What are your weaknesses?",
+          "back": "I sometimes get deeply invested in optimizing system performance and exploring edge cases, which can extend development timelines. For instance, while building Social Graph, I spent considerable time fine-tuning Kafka configurations and Redis caching strategies. However, I've learned to balance optimization with delivery by prioritizing MVP features first and iterating based on metrics and user feedback. Using Agile practices and setting clear milestones has helped me maintain velocity while ensuring quality."
+        },
+        {
+          "front": "Why do you want to join us?",
+          "back": "I'm excited about working on systems that operate at scale and solve complex engineering challenges. Your focus on distributed systems, microservices architecture, and building high-performance platforms aligns perfectly with my experience in backend development, event-driven design, and system optimization. I'm particularly interested in contributing to scalable infrastructure, observability systems, and distributed architectures while continuing to grow as a backend engineer working on real-world production systems."
+        },
+        {
+          "front": "Where do you see yourself in the next 5 years?",
+          "back": "In five years, I see myself as a senior backend or distributed systems engineer, working on large-scale infrastructure, real-time data pipelines, or platform engineering. I want to deepen my expertise in system design, cloud-native architectures, stream processing, and performance optimization at scale. I'm also interested in contributing to architectural decisions, mentoring junior engineers, and building systems that handle millions of users with high reliability and low latency."
+        },
+        {
+          "front": "Tell me about a time you went above and beyond",
+          "back": "Situation: While building Social Graph, the initial requirement was a basic social feed microservice. Task: Deliver a production-ready, scalable system. Action: I went beyond the scope by implementing comprehensive observability with Prometheus, Grafana, and Jaeger for distributed tracing, load-tested the system to sustain 250-300 RPS, integrated Resilience4j for fault tolerance, and optimized Redis caching to achieve sub-100ms feed retrieval latency. I also containerized all services with Docker Compose for easier deployment. Result: Delivered a battle-tested distributed system with 99.9% simulated uptime and 50% faster incident response time, demonstrating production-grade engineering practices."
+        },
+        {
+          "front": "How do you handle tight deadlines?",
+          "back": "I break down complex systems into manageable milestones, prioritize core functionality, and ship iteratively. In projects like Social Graph and Grabit, I followed Agile development, ensuring each service or feature was functional and tested before moving to the next. For the Paper Trading app, I collaborated with my team to define clear requirements and built modular UI components that could be developed in parallel. This approach helped me deliver complex distributed systems and full-featured Android apps within tight project timelines while maintaining code quality."
+        },
+        {
+          "front": "Describe a time you took initiative",
+          "back": "Situation: During the development of my Multithreaded Proxy Server, basic HTTP proxying was the requirement. Task: Build a high-performance, production-capable proxy. Action: I proactively implemented a thread-safe LRU cache to optimize repeated requests, used ExecutorService for efficient thread pool management, added comprehensive performance logging to monitor request latency and throughput, and conducted extensive load testing with 10k concurrent connections. Result: Achieved 60% faster response times on cached requests and successfully processed 1M+ total requests during load testing, demonstrating scalability and efficient resource management under heavy load."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Sumit's Social Graph project achieved sub-100ms median feed retrieval latency using Redis caching and Kafka-based microservices.",
+          "answer": true
+        },
+        {
+          "question": "When answering 'tell me about yourself', you should avoid mentioning specific projects and technical achievements.",
+          "answer": false
+        },
+        {
+          "question": "Sumit has solved 750+ LeetCode problems with a rating that outperforms 93% of competitors globally.",
+          "answer": true
+        }
+      ]
+    },
+    {
+      "title": "Technical Questions",
+      "icon": "Target",
+      "cards": [
+        {
+          "front": "Explain your experience with distributed systems and microservices",
+          "back": "I have hands-on experience building distributed microservices using Spring Boot, Kafka, Redis, and PostgreSQL. In Social Graph, I built a scalable backend that processes millions of real-time interactions with sub-100ms latency. I used Kafka for event-driven messaging between services, Redis for caching to reduce database load, and implemented load balancing to sustain 250-300 RPS. I also integrated observability using Prometheus, Grafana, and Jaeger for monitoring and distributed tracing, reducing incident response time by 50%. My architecture focuses on fault tolerance, horizontal scalability, and maintaining high availability."
+        },
+        {
+          "front": "What is your experience with multithreading and concurrency?",
+          "back": "I built a high-performance multithreaded HTTP proxy server that handled 10k concurrent connections using Java's ExecutorService and TCP sockets. I implemented thread-safe LRU caching that improved response times by 60% on repeated requests and processed over 1M total requests during load testing. I have strong understanding of thread synchronization, concurrent data structures, deadlock prevention, and efficient resource management under heavy concurrent load. I also use Kotlin Coroutines and StateFlow for asynchronous programming in Android."
+        },
+        {
+          "front": "Explain your experience with caching strategies",
+          "back": "I've implemented caching at multiple levels. In Social Graph, I used Redis for distributed caching to achieve sub-100ms feed retrieval and reduce database queries. In my Proxy Server, I built a thread-safe LRU cache that achieved 60% faster response times on repeated network requests. I understand cache invalidation strategies, TTL management, cache warming, and when to use in-memory vs distributed caching based on system requirements and access patterns."
+        },
+        {
+          "front": "How do you approach system design and scalability?",
+          "back": "I follow a structured approach: understand requirements and scale expectations, identify bottlenecks, choose appropriate data stores (SQL for transactional, NoSQL for flexibility, Redis for caching), design stateless services for horizontal scaling, use message queues like Kafka for asynchronous processing, implement circuit breakers with Resilience4j for fault tolerance, and add comprehensive monitoring. In Social Graph, this approach helped me build a system sustaining 250-300 RPS with 99.9% uptime. I always consider CAP theorem tradeoffs and design for failure scenarios."
+        },
+        {
+          "front": "What is your experience with Android development?",
+          "back": "I've built production-ready Android apps using Kotlin, MVVM architecture, and Jetpack components. Grabit is a Zepto-style delivery app with 40+ products, real-time cart synchronization, product filtering, and role-based access for users, admins, and delivery partners. I implemented secure Razorpay payment integration with order verification, used Coroutines and StateFlow for reactive UI updates, Firebase Auth and Firestore for backend, and followed MVVM with Repository pattern. I also have experience with Retrofit for API calls, Room database, LiveData, ViewModel, and Jetpack Compose."
+        },
+        {
+          "front": "How do you handle observability and monitoring in production systems?",
+          "back": "I integrate observability from the start. In Social Graph, I used Prometheus for metrics collection (latency, throughput, error rates), Grafana for visualization and dashboards, and Jaeger for distributed tracing across microservices. This setup helped reduce incident response time by 50% by quickly identifying bottlenecks and failures. I also implement structured logging with correlation IDs, set up alerting thresholds, and monitor key SLIs like request latency, error rates, and system resource utilization. My Proxy Server also had comprehensive performance logging for monitoring request patterns and throughput."
+        },
+        {
+          "front": "Explain your experience with event-driven architecture",
+          "back": "I've built event-driven systems using Apache Kafka in Social Graph, where user interactions (likes, comments, shares) are published as events and consumed by different microservices for processing, ranking, and feed generation. This design decouples services, enables asynchronous processing, and improves system resilience. I understand concepts like event sourcing, CQRS, idempotency, exactly-once vs at-least-once delivery semantics, partitioning strategies, and consumer group management. Kafka helped me achieve high throughput and real-time processing of millions of interactions."
+        },
+        {
+          "front": "What is your experience with DevOps and containerization?",
+          "back": "I use Docker extensively for containerizing microservices, ensuring consistency across development and production environments. In Social Graph, I deployed the entire stack using Docker Compose, orchestrating multiple services including Spring Boot applications, Kafka, Redis, PostgreSQL, and Neo4j. I have experience with CI/CD pipelines using GitHub Actions, AWS deployment, container networking, volume management, and environment-based configuration. I also have hands-on experience with monitoring tools like Prometheus and Grafana integrated into containerized environments."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Sumit used Resilience4j in Social Graph to implement fault tolerance patterns like circuit breakers.",
+          "answer": true
+        },
+        {
+          "question": "Apache Kafka is a relational database management system.",
+          "answer": false
+        },
+        {
+          "question": "Docker Compose can be used to orchestrate and deploy multiple containerized microservices together.",
+          "answer": true
+        }
+      ]
+    },
+    {
+      "title": "Project Highlights",
+      "icon": "Award",
+      "cards": [
+        {
+          "front": "Social Graph — Distributed Social Feed & Relationship Engine",
+          "back": "Built a scalable microservices backend using Spring Boot and Kafka that processes and ranks millions of real-time user interactions with sub-100ms median feed retrieval latency. Improved throughput using Redis caching and Resilience4j for fault tolerance, load-tested to sustain 250-300 RPS with 99.9% simulated uptime. Deployed containerized services via Docker Compose and integrated Prometheus-Grafana monitoring with Jaeger distributed tracing, reducing incident response time by 50%. Tech Stack: Spring Boot, Java, Kafka, Redis, PostgreSQL, Neo4j, Docker, Prometheus, Grafana, Jaeger."
+        },
+        {
+          "front": "Multithreaded Proxy Server with LRU Cache",
+          "back": "Built a high-performance multithreaded HTTP proxy server that processed 1M+ total requests during load testing, sustaining 10k concurrent connections using ExecutorService and TCP sockets. Integrated a thread-safe LRU cache achieving 60% faster response time on repeated network requests. Implemented concurrent request handling and performance logging, demonstrating scalability and efficient network I/O management under heavy load. Tech Stack: Java, Multithreading, TCP Sockets, ExecutorService, LRU Cache."
+        },
+        {
+          "front": "Grabit — Zepto-Style Delivery App",
+          "back": "Built a scalable Android delivery app with 40+ products, real-time cart synchronization, product filtering, and smooth UI using Coroutines and StateFlow. Integrated Razorpay for secure payments with order verification and transaction logging. Implemented role-based access control for users, admins, and delivery partners using Firebase Auth and Firestore, following MVVM architecture. Tech Stack: Kotlin, Firebase, Razorpay, MVVM, Coroutines, StateFlow, Jetpack."
+        },
+        {
+          "front": "Paper Trading App — Freelance Frontend Development",
+          "back": "Developed the frontend for a Paper Trading app using TypeScript and Firebase, building multiple trading screens, portfolio management interfaces, and authentication flows with clear user-flow logic. Collaborated with a 4-member team to define functional and non-functional requirements and built modular, reusable UI components with a scalable NoSQL database design. Tech Stack: TypeScript, Firebase, React, NoSQL."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Sumit's Multithreaded Proxy Server achieved 60% faster response time on repeated requests through thread-safe LRU caching.",
+          "answer": true
+        },
+        {
+          "question": "Neo4j is a relational database commonly used for tabular data storage.",
+          "answer": false
+        },
+        {
+          "question": "Sumit was a Top 6 finalist out of 2,500 teams in the ESSPL Hackathon and qualified for Round 2 in both Flipkart Grid 6.0 and EY Techathon 5.0.",
+          "answer": true
+        }
+      ]
+    }
+  ]
+}
